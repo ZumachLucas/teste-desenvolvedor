@@ -1,3 +1,5 @@
 # Teste Desenvolvedor WEB 
 
-Teste para vaga de Programador Junior.
+Instruções:
+
+Implementar uma aplicaçãoo Web utilizando PHP, e um banco de dados relacional como o MySQL.
