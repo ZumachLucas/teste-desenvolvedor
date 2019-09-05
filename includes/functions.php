@@ -4,7 +4,7 @@
 
     session_start();
 
-    site_header($titulo); { ?>
+    function site_header($titulo) {?>
         
         <!DOCTYPE html>
             <html lang="en">
@@ -14,13 +14,13 @@
                 <meta http-equiv="X-UA-Compatible" content="ie=edge">
                 <title>
                 <?php echo $titulo  ?> -
-                <?php SITE_NOME ?>
+                <?php echo SITE_NOME ?>
                 </title>
 
         <?php
         } 
 
-    site_footer(); { ?>
+    function site_footer() { ?>
 
         </head>
         <body>
