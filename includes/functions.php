@@ -19,6 +19,16 @@
 
         <?php
         } 
+    
+    function site_menu() {
+
+        $menu = [
+            'index.php' => 'Página Inicial',
+            'pedidos.php' => 'Pedidos',
+            
+        ];
+
+    }
 
     function site_footer() { ?>
 
