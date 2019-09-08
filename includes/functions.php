@@ -48,8 +48,8 @@
             'index.php' => 'Página Inicial',
             'pedidos.php' => 'Pedidos',
             
-        ];
-
+        ];  ?>
+		</ul> <?php 
     }
 
     function site_footer() { ?>

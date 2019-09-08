@@ -6,6 +6,9 @@
 
     site_menu();
 
+    ?>
 
+    <h1>Clientes:</h1>
 
+<?php
     site_footer();

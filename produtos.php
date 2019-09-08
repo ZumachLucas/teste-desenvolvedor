@@ -6,5 +6,9 @@
 
     site_menu();
 
+    ?>
 
+    <h1>Produtos: </h1>
+
+<?php
     site_footer();
