@@ -20,7 +20,29 @@
         <?php
         } 
     
-    function site_menu() {
+    function site_menu() { ?>
+
+        <style>
+			#menu li {
+				display: inline-block;
+				width: 100px;
+				vertical-align: top;
+
+				/*Dirty IE Hack*/
+				zoom: 1;
+				*display: inline;
+			}
+			
+			a {
+				color: gray;
+			}
+			a.active {
+				color: blue;
+			}
+
+		</style>
+		<ul id="menu">
+			<?php 
 
         $menu = [
             'index.php' => 'Página Inicial',
